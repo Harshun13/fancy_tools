@@ -3,8 +3,8 @@ dldir="$HOME/src"
 if [[ ! -d "$dldir" ]]; then
         mkdir -p "$dldir"
 fi
-#cd ~/src
-#git clone https://github.com/Harshun13/fancy_tools.git
+cd ~/src
+git clone https://github.com/Harshun13/fancy_tools.git
 
 ##Check for dir, if not found create it using the mkdir 
 dldir="$HOME/bin"
