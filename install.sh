@@ -30,3 +30,7 @@ grep -qF -- "$LINE" "$FILE" || echo "$LINE" >> "$FILE"
 LINE2="source $Directory/fancy_tools/.aliases"
 grep -qF -- "$LINE2" "$FILE" || echo "$LINE2" >> "$FILE"
 
+#update fancy tool
+cd ~/bin
+cp  src/fancy_tools/bin/udpateFancyTools ~/bin/udpateFancyTools
+
